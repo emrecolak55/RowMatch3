@@ -1,0 +1,755 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1682934914176630, "dur": 634584, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682934914176682, "dur": 8791, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682934914185477, "dur": 31161, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682934914216641, "dur": 187102, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682934914403746, "dur": 393458, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682934914797206, "dur": 14005, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682934914811807, "dur": 16, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1682934914296853, "dur": 92106, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682934914297684, "dur": 35834, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682934914374009, "dur": 4339, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682934914378352, "dur": 10594, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682934914378972, "dur": 9057, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682934914393101, "dur": 1099, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682934914392412, "dur": 1811, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682934914811898, "dur": 210, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1682934914435324, "dur":1138, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914436479, "dur":62, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1682934914436570, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1682934914436583, "dur":296, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1682934914436893, "dur":560, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914437453, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779369, "dur":235, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779604, "dur":64, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779668, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779671, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779681, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779683, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779690, "dur":37, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779728, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779736, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779738, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779741, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779743, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779747, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779749, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779752, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779753, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779757, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779758, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779762, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779763, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779767, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779768, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779771, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779772, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779777, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779787, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914779809, "dur":1023, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1682934914437151, "dur":329, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914437480, "dur":4258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914441738, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1682934914441895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914451634, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1682934914452834, "dur":26443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914479302, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914479462, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914480613, "dur":57545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914538165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914538177, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914539325, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914539560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914539569, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914540693, "dur":42845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914583545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914583558, "dur":3488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914587075, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914587277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914587286, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914588439, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914588926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914588934, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914590366, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914590494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914590502, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914591671, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914591775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914591782, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914593608, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914593720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914593728, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914595422, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914595524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914595531, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914596823, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914596925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914596934, "dur":2377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914599353, "dur":48773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914648129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914648137, "dur":3636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682934914651809, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":1, "ts":1682934914651848, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914651854, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":1, "ts":1682934914653082, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":1, "ts":1682934914653146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914653153, "dur":2745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":1, "ts":1682934914655960, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1682934914656093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914656104, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1682934914658966, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level9" }}
+,{ "pid":12345, "tid":1, "ts":1682934914659008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914659016, "dur":4492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level9" }}
+,{ "pid":12345, "tid":1, "ts":1682934914663549, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1682934914663585, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914663593, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1682934914665332, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level22" }}
+,{ "pid":12345, "tid":1, "ts":1682934914665365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914665371, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level22" }}
+,{ "pid":12345, "tid":1, "ts":1682934914667728, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level17" }}
+,{ "pid":12345, "tid":1, "ts":1682934914667762, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914667768, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level17" }}
+,{ "pid":12345, "tid":1, "ts":1682934914670186, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level10" }}
+,{ "pid":12345, "tid":1, "ts":1682934914670248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682934914670253, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level10" }}
+,{ "pid":12345, "tid":1, "ts":1682934914672517, "dur":106847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914437114, "dur":351, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914437469, "dur":4243, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914441721, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1682934914441728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914442688, "dur":308, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1682934914443000, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1682934914443037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914443279, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1682934914444881, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1682934914444952, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914445317, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1682934914446039, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1682934914446221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914446227, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1682934914447213, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1682934914447287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914447294, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1682934914448378, "dur":6743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914455146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914455216, "dur":9235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914464481, "dur":30655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914495141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914495149, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914496250, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914496588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914496599, "dur":2901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914499534, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914499680, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914499688, "dur":4494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914504215, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914504467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914504474, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914507409, "dur":35624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914543038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914543047, "dur":5556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914548642, "dur":23047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914571692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914571728, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914573171, "dur":47149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914620324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914620330, "dur":3083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914623460, "dur":815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914625204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914625212, "dur":3795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914629069, "dur":38754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Microsoft.Bcl.AsyncInterfaces.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914667827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914667835, "dur":4421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Microsoft.Bcl.AsyncInterfaces.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682934914672289, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1682934914672405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682934914672412, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1682934914673765, "dur":105620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914437223, "dur":277, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914437500, "dur":4239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914441739, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1682934914442037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914453988, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1682934914455390, "dur":25565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914480961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914480971, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914483031, "dur":24203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914507238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914507248, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914509308, "dur":33262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914542577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914542617, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914544060, "dur":23671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914567737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914567747, "dur":3801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914571591, "dur":28034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914599629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914599639, "dur":3919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914603593, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914603740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914603748, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914604995, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914605180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914605189, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914606096, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914606215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914606223, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914607376, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914607514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914607521, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914609326, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914609524, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914609529, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914611320, "dur":870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914612194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914612203, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914613293, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914613652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914613659, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914614911, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914615025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914615033, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914616183, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914616459, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914616472, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914617562, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914617677, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914617684, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914619167, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914619306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914619314, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914620849, "dur":2251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914623104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914623113, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914625247, "dur":1020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914626272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914626281, "dur":2883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914629194, "dur":147795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/AWSSDK.S3.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914776994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682934914777002, "dur":2270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/AWSSDK.S3.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682934914779305, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1682934914779307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914437377, "dur":158, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914437535, "dur":4188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914441725, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1682934914442042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914460851, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1682934914463497, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914463647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914463816, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914464911, "dur":25322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914490243, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914490257, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914491399, "dur":71320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914562725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914562761, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914563950, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914564074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914564083, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914565164, "dur":23048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914588217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914588228, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914589190, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914589290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914589297, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914590833, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914590944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914590954, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914592368, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914592477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914592484, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914594482, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914594597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914594604, "dur":2858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914597496, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914597619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914597627, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914599789, "dur":76853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914676647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682934914676655, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682934914678115, "dur":101270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914437139, "dur":334, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914437473, "dur":4267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914441740, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1682934914441885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914451236, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1682934914452283, "dur":39448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914491735, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914491747, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914492807, "dur":20679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914513493, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914513530, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914514698, "dur":28614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914543316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914543324, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914544871, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914545009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914545017, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914546968, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914547118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914547133, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914548477, "dur":19628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914568109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914568117, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914569195, "dur":24725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914593924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914593932, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914595178, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914595273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914595279, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914597702, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914598056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914598067, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914600091, "dur":82086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914682181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682934914682190, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682934914683178, "dur":96194, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914437185, "dur":307, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914437492, "dur":4221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914441721, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1682934914442013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914452256, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1682934914453953, "dur":44608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914498567, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914498579, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914499771, "dur":1095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914500870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914500879, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914502650, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914502866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914502875, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914504184, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914504315, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914504321, "dur":2600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914506971, "dur":22255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914529233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914529278, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914530675, "dur":21744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914552425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914552436, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914553819, "dur":31371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914585318, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914585339, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914586845, "dur":33125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914619973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914619980, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914622168, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914622315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914622323, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914625021, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914625360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914625368, "dur":3791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914630091, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914630239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914630247, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914631772, "dur":19028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914650804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914651547, "dur":3208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682934914654992, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1682934914655037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914655044, "dur":5164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1682934914660248, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level8" }}
+,{ "pid":12345, "tid":6, "ts":1682934914660288, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914660298, "dur":3859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level8" }}
+,{ "pid":12345, "tid":6, "ts":1682934914664192, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level26" }}
+,{ "pid":12345, "tid":6, "ts":1682934914664226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914664232, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level26" }}
+,{ "pid":12345, "tid":6, "ts":1682934914666826, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level19" }}
+,{ "pid":12345, "tid":6, "ts":1682934914666861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914666867, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level19" }}
+,{ "pid":12345, "tid":6, "ts":1682934914669336, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level13" }}
+,{ "pid":12345, "tid":6, "ts":1682934914669371, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914669376, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level13" }}
+,{ "pid":12345, "tid":6, "ts":1682934914670968, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1682934914671025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682934914671031, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1682934914673393, "dur":105986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914437254, "dur":253, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914437507, "dur":4231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914441738, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1682934914442035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914452969, "dur":5530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1682934914458538, "dur":33555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914492098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914492107, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914493043, "dur":78749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914571795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914571803, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914573247, "dur":34125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914607376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914607386, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914609299, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914609460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914609468, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914611159, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914611306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914611316, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914612184, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914612441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914612448, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914613683, "dur":1070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914614758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914614768, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914616561, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914616768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914616776, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914617672, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914617851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914617858, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914620472, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914620950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914620957, "dur":2440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914623435, "dur":1499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914625418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914625425, "dur":3559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914629022, "dur":745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914629770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914629780, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914630817, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914630934, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914630941, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682934914632195, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1682934914632750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914633160, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1682934914634506, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1682934914634541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914634594, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1682934914635822, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914635861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914635870, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914637160, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914637196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914637203, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914638209, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914638242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914638248, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914639287, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets26.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1682934914639326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914639332, "dur":2992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets26.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1682934914642359, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets25.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914642394, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914642402, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets25.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914644721, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets22.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914644758, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914644766, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets22.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914645692, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914645726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914645733, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets21.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914646771, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914646805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914646812, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914647988, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914648023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914648030, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914649253, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914649287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914649305, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914650462, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914650492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914650499, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914652013, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914652057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914652063, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":7, "ts":1682934914653343, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1682934914653383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914653389, "dur":3974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1682934914657396, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1682934914657438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914657445, "dur":4824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1682934914662333, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1682934914662383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914662392, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1682934914664914, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level23" }}
+,{ "pid":12345, "tid":7, "ts":1682934914664955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914664961, "dur":2657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level23" }}
+,{ "pid":12345, "tid":7, "ts":1682934914667665, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level18" }}
+,{ "pid":12345, "tid":7, "ts":1682934914667699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914667706, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level18" }}
+,{ "pid":12345, "tid":7, "ts":1682934914669663, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level12" }}
+,{ "pid":12345, "tid":7, "ts":1682934914669697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914669703, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level12" }}
+,{ "pid":12345, "tid":7, "ts":1682934914671269, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1682934914671303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682934914671308, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1682934914673553, "dur":105834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914437282, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914437515, "dur":4199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914441721, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1682934914441858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914446352, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1682934914447255, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1682934914447308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914447314, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1682934914448378, "dur":27035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914475420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914475430, "dur":18344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914493815, "dur":22858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914516678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914516687, "dur":5404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914522124, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914522274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914522285, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914523383, "dur":21108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914544495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914544505, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914545720, "dur":26597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914572320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914572328, "dur":2686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914575048, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914575304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914575315, "dur":3390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914578742, "dur":44371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914623117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914623124, "dur":4119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914627280, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914627462, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914627470, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914629437, "dur":127942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/AWSSDK.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914757383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682934914757392, "dur":2782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/AWSSDK.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682934914760204, "dur":19162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914437312, "dur":209, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914437522, "dur":4206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914441730, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1682934914441853, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914443242, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1682934914444937, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1682934914445074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914445162, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1682934914445970, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1682934914446034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914446073, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1682934914446908, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1682934914446986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914446993, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1682934914448500, "dur":1115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1682934914449618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914449644, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1682934914451006, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1682934914451089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914451270, "dur":7701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1682934914459006, "dur":29182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914488259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914488275, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914489402, "dur":40820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914530228, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914530239, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914531195, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914531397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914531406, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914532390, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914532611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914532620, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914533569, "dur":33186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914566762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914566774, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914568511, "dur":1189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914569704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914569715, "dur":2440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914572186, "dur":30856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914603049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914603062, "dur":5845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914608941, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914609167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914609177, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914610240, "dur":2751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914612996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914613004, "dur":2181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914615214, "dur":36430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914651648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914651788, "dur":4463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682934914656292, "dur":1185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1682934914657481, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914657488, "dur":3543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1682934914661068, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level6" }}
+,{ "pid":12345, "tid":9, "ts":1682934914661100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914661106, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level6" }}
+,{ "pid":12345, "tid":9, "ts":1682934914664558, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level24" }}
+,{ "pid":12345, "tid":9, "ts":1682934914664593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914664599, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level24" }}
+,{ "pid":12345, "tid":9, "ts":1682934914666634, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level20" }}
+,{ "pid":12345, "tid":9, "ts":1682934914666672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914666678, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level20" }}
+,{ "pid":12345, "tid":9, "ts":1682934914669197, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level14" }}
+,{ "pid":12345, "tid":9, "ts":1682934914669242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914669247, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level14" }}
+,{ "pid":12345, "tid":9, "ts":1682934914670747, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1682934914670790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682934914670796, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1682934914673017, "dur":106345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914437344, "dur":185, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914437529, "dur":4188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914441724, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1682934914442034, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914452395, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1682934914453999, "dur":50078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914504082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914504112, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914506115, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914506263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914506272, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914507215, "dur":48805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914556027, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914556040, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914557238, "dur":31968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914589209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914589218, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914590635, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914590745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914590752, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914591931, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914592075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914592082, "dur":2975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914595102, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914595216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914595222, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914596404, "dur":744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914597151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914597159, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914599160, "dur":52057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914651221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914651229, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682934914654317, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1682934914654352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914654360, "dur":3080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1682934914657477, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1682934914657509, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914657514, "dur":3431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1682934914660990, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level7" }}
+,{ "pid":12345, "tid":10, "ts":1682934914661029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914661038, "dur":2702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level7" }}
+,{ "pid":12345, "tid":10, "ts":1682934914663773, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level3" }}
+,{ "pid":12345, "tid":10, "ts":1682934914663806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914663811, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level3" }}
+,{ "pid":12345, "tid":10, "ts":1682934914665780, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level21" }}
+,{ "pid":12345, "tid":10, "ts":1682934914665810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914665815, "dur":2102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level21" }}
+,{ "pid":12345, "tid":10, "ts":1682934914667951, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level16" }}
+,{ "pid":12345, "tid":10, "ts":1682934914667987, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914668000, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level16" }}
+,{ "pid":12345, "tid":10, "ts":1682934914670015, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level11" }}
+,{ "pid":12345, "tid":10, "ts":1682934914670047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682934914670053, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level11" }}
+,{ "pid":12345, "tid":10, "ts":1682934914672589, "dur":106774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914437397, "dur":141, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914437538, "dur":4195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914441736, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1682934914441869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914451092, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1682934914452069, "dur":61889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682934914513962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914513971, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682934914514822, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682934914514935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914514943, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682934914515784, "dur":32650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682934914548438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914548454, "dur":3360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682934914551847, "dur":68006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682934914619912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914619922, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682934914622010, "dur":2001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682934914624994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914625006, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682934914627424, "dur":3914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682934914631341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914631349, "dur":4716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682934914636098, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914636136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914636143, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914637170, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914637204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914637211, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914638237, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914638272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914638278, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914639233, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914639292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914639300, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914641099, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets26.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914641132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914641142, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets26.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914642626, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets24.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914642659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914642665, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets24.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914643603, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets23.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914643639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914643645, "dur":3533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets23.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914647220, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914647253, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914647259, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914648097, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914648130, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914648141, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914649393, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914649423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914649428, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914650771, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914650806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914650812, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914652067, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914652110, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914652115, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":11, "ts":1682934914654591, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1682934914654623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914654629, "dur":9818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1682934914664482, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level25" }}
+,{ "pid":12345, "tid":11, "ts":1682934914664519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914664525, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level25" }}
+,{ "pid":12345, "tid":11, "ts":1682934914666773, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1682934914666806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914666811, "dur":2137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1682934914668986, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level15" }}
+,{ "pid":12345, "tid":11, "ts":1682934914669039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914669046, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level15" }}
+,{ "pid":12345, "tid":11, "ts":1682934914670625, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1682934914670657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682934914670663, "dur":2444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1682934914673138, "dur":106229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914437424, "dur":120, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914437544, "dur":4175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914441721, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1682934914441863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914446508, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1682934914447345, "dur":530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914447878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914448053, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914448911, "dur":4092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch.exe" }}
+,{ "pid":12345, "tid":12, "ts":1682934914453006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914453013, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch.exe" }}
+,{ "pid":12345, "tid":12, "ts":1682934914454799, "dur":39607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914494411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914494422, "dur":6212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914500663, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914500938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914500943, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914502016, "dur":21980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914524000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914524012, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914525313, "dur":20385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914545702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914545711, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914546982, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914547326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914547358, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914549119, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914549252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914549261, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914550379, "dur":21198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914571582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914571595, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914573033, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914573198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914573208, "dur":2353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914575596, "dur":140479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914716091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682934914716100, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/colak/OneDrive/Masast/BUILDS/SON/rowmatch_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682934914717310, "dur":62068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682934914781977, "dur":1939, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1682934914812154, "dur": 710, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682934914811792, "dur": 1096, "ph": "X", "name": "Write chrome-trace events", "args": {} },
